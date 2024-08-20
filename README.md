@@ -6,12 +6,14 @@
 - Quick access via context menu on any selected text.  
 - Persistent user preferences for language selection.
 
-## Usage
+## Set up
 - Clone the repository using "git clone https://github.com/KN0987/Translating-Extension.git"
 - Generate your API key on DeepL API "https://www.deepl.com/en/pro?cta=apiDocsHeader#developer".
 - Get your API key and replace it in "server-worker.js" file.
 - Load the extension in Chrome by going to "chrome://extensions/" and enabling "Developer mode."
 - Click "Load unpacked" and select your extension folder.
-- Test the popup and context menu to ensure everything works as expected.
 
-  
+## Usage
+- On any webpage, highlight the text, then right-click and select "Translate" with app logo
+- Translate text should display beneath the highlighted text
+
